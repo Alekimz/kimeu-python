@@ -32,3 +32,77 @@ x=10
 X=14
 print(x)
 print(X)
+
+x=10
+x=267
+print(x)
+
+
+
+price=10
+qty=7
+total=price*qty
+myanswer1="the total is:"+str(total)+" kenya shillimgs"
+print(myanswer1)
+
+
+firstname="alex"
+secondname=787878
+thirdname=firstname+" "+str(secondname)
+print("my third name is "+thirdname)
+
+
+firstname="alex"
+secondname=("kimeu")
+thirdname=firstname+" "+secondname
+print("my third name is "+thirdname)
+
+
+#assignment operators
+x=5
+print(x)
+x+=5 #x=x+5
+print(x)
+x-=4 #x=x-4
+print(x)
+x*=3 #x=x*3
+print(x)
+x/=2 #x=x/2
+print(x)
+
+#COMPARISON OPERATORS
+a=20
+b=15
+print(a==b)
+
+#LOGICAL OPERATORS
+age=20
+nationality="North america"
+
+if nationality=="kenya" and age>35:
+    print("you can be president")
+else:
+    print(" you cannot be president")
+
+
+age = 37
+nationality = "kenya"
+
+if nationality == "kenya" and age > 35:
+    print("you can be president")
+else:
+    print(" you cannot be president")
+
+age=26
+region ="embakasi,westlands,kasarani"
+
+if region=="Embakasi"or"Westlands"or"Kasarani":
+      print("you can be governor")
+
+else:
+     print("you cannot be governor")
+
+
+
+
+
