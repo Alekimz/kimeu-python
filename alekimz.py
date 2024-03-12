@@ -27,3 +27,8 @@ _book_price=20.0 #valid variable name
 
 x=y=z=10 #assigning one value to multiple variables
 x,y,z=30,40,50 #multiple values being assigned to multiple variables
+
+x=10
+X=14
+print(x)
+print(X)
