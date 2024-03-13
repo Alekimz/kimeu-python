@@ -106,3 +106,71 @@ else:
 
 
 
+def is_odd(number):
+    return number % 2 != 0
+
+x= 7
+
+if is_odd(x):
+    print(f"{x} is odd.")
+else:
+    print(f"{x} is even.")
+
+
+y=200
+x=2
+ans=y%x
+print(ans)
+if ans==0:
+    print("y is an even number")
+else:
+    print("y is an odd number")
+
+
+y=209
+x=2
+ans=y%x
+print(ans)
+if ans==0:
+    print("y is an even number")
+else:
+    print("y is an odd number")
+
+""""
+y= int(input("enter your number to be checked:"))
+x=2
+ans=y%x
+print(ans)
+if ans==0:
+    print("y is an even number")
+else:
+    print("y is an odd number")
+"""
+
+#LOOPS
+#the while loop
+x=1
+while x<=5:
+    print("Alex")
+    x+=1
+
+
+x=1
+while x<=5:
+    if x==3:
+        break
+    print("x")
+    x+=1
+
+
+#continue statement in while loop
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+        print(i)
+
+
+
+
