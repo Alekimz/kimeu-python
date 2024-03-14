@@ -147,6 +147,24 @@ else:
     print("y is an odd number")
 """
 
+"""
+country=input("enter your country:")
+if country=="Rwanda":
+    print("East African")
+elif country=="Kenya":
+    print("East African")
+elif country=="Congo":
+    print("East African")
+else:
+    print("invalid country")
+"""
+
+
+
+
+
+
+
 #LOOPS
 #the while loop
 x=1
@@ -170,6 +188,68 @@ while i < 6:
     if i == 3:
         continue
         print(i)
+
+"""
+x=1
+while x<=10:
+    print("the number is:",x)
+    x+=1
+else:
+    print("loop ended")
+"""
+
+x=1
+while x<=10:
+    if (x==3):
+            break
+    print("the number is:",x)
+    x+=1
+print("loop ended")
+
+
+"""
+x=1
+while x<=10:
+    if (x==3):
+            break
+    print("the number is:",x)
+    x+=1
+    print("loop ended")
+"""
+
+
+x=1
+while x<=10:
+    if x == 3 or x == 5:
+        x+=1
+        continue
+    print("the number is:",x)
+    x+=1
+print("loop ended")
+
+
+numbers=[1,3,5,7,9]
+total=0
+for num in numbers:
+    total += num
+print("the sum of numbers  odd numbers is",total)
+
+
+x=1,3,5,7,9
+while x<10:
+     if x%2=="1":
+      total += num
+print("the sum of numbers is",total)
+
+
+
+
+
+
+
+
+
+
 
 
 
