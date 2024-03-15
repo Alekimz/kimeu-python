@@ -234,15 +234,40 @@ for num in numbers:
     total += num
 print("the sum of numbers  odd numbers is",total)
 
-
-x=1,3,5,7,9
+"""
+x=1
 while x<10:
      if x%2=="1":
       total += num
 print("the sum of numbers is",total)
+"""
 
 
+"""
+i=0
+sum=0
+while i<=10:
+    if i%2==1:
+     sum=sum+i
+    i=i+1
+print("the total sum is",sum)
+"""
+"""
+total=0
+for num in range(10):
+    if num%2!=0:
+     total=total+num
+print("the total sum of all odd numbers  is",total)
 
+"""
+
+names=[]
+num_names = int(input("How many names do you want to enter? "))
+for i in range(num_names):
+        name = input("Enter your name: ")
+        names.append(name)
+for name in names:
+    print(name)
 
 
 
