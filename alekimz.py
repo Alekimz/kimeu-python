@@ -261,6 +261,7 @@ print("the total sum of all odd numbers  is",total)
 
 """
 
+"""
 names=[]
 num_names = int(input("How many names do you want to enter? "))
 for i in range(num_names):
@@ -268,14 +269,19 @@ for i in range(num_names):
         names.append(name)
 for name in names:
     print(name)
+"""
 
 
+"""
+input[input("Enter your name:"),input("Enter your name:"),input("Enter your name:")]
+print(input)
+"""
 
-
-
-
-
-
-
-
-
+#DICTIONARIES
+#Acessing a value from a dictionary,we specify the key of that value
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
